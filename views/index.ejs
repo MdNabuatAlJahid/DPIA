@@ -1,0 +1,67 @@
+<% include partials/header %>
+	<div class="top_menu">
+	<div class="row">
+  		<div class="col-4">
+  			<div class ='logo'><img src="image/LogoDSFA120.jpg" alt="#"></div>
+  		</div>
+  		<div class="col-8">
+  			<div class="topnav" id="myTopnav">
+  				<ul>
+	  				<li><a class="active" href="#home">HOME</a></li>
+	  				<li><a href="#WORK PACKAGES">WORK PACKAGES</a></li>
+	  				<li><a href="#SUPPORTING GROUP">SUPPORTING GROUP</a></li>
+	  				<li><a href="#RELATED WORK">RELATED WORK</a></li>
+	  				<li><a href="#PUBLICATIONS">PUBLICATIONS</a></li>
+  				</ul>
+			</div>
+			<div class="language_change">
+				<div class= 'german_logo'><img src="image/Germany_Logo.png" alt="#"></div>
+				<div class = 'uk_logo' ><img src="image/UK_Logo.png" alt="#"></div>	
+			</div>	
+		</div>
+	</div>
+		</div>
+<div class="container">
+	<div class="body_text">
+	<div class="col-8 left_column" >
+		<%if(!req.suc){ %>
+			<form action="" method="post">
+			<% for (var i = 0; i < req.qst.length; i++) { %>
+			  	<h2><%=req.qst[i].id%>.<%= req.qst[i].question %></h2>  	
+			  	<input type="radio" name="ans" value="1"> YES
+			  	<input type="radio" name="ans" value="0" checked> NO<br>
+			  	<input type="hidden" name="qid" value="<%= req.qst[i].id %>">
+			<% } %>
+			  	<input type="hidden" name="uid" value="<%= req.uid %>">
+			  	<br><button type="submit"><% if(req.last){ %> Submit <% } else { %> Next <% } %></button>
+			</form> 
+		<% } else { %>
+			<h4><%= req.suc %></h4>
+		<% } %>
+				
+	
+	<!-- <div class ='social_link'>		
+			<div class= 'twitter'><img src="image/twitter.png" alt="#"></div>
+			<div class= 'facebook'><img src="image/facebook.png" alt="#"></div>
+			<div class= 'linkedin'><img src="image/linkedin.png" alt="#"></div>
+			<div class= 'google'><img src="image/google.png" alt="#"></div>
+			<div class= 'pinterest'><img src="image/pinterest.png" alt="#"></div>
+			<div class= 'german_logo'><img src="image/email.png" alt="#"></div>
+	</div> -->
+	  </div>
+	  <div class="col-4 right_column">
+	  	<h6>NEWS</h6>
+	  		<p class ="news_text ">CNIL announces new “PIA guides” and a free software<p>
+			<p class ="news_text ">Results of a DPIA simulation published</p>
+			<p class ="news_text ">First meeting of the project advisory board</p>	
+			<h6>PARTNERS</h6>
+			<div class= 'isi'><img src="image/isi.png" height ="70px"alt="#"></div>
+			<div class= 'fiz-1'><img src="image/fiz-1.png" height ="70px"alt="#"></div>
+			<div class= "Logo-FH-Kiel-1"><img src="image/Logo-FH-Kiel-1.jpg" height ="35px" alt="#"></div>
+			<h6>FUNDED BY</h6>	
+			<div class= 'download-300x154'><img src="image/download-300x154.png" alt="#"></div>			
+	  </div>
+	</div>
+</div>
+
+<% include partials/footer %>

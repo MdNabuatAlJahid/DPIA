@@ -1,0 +1,21 @@
+{
+  "name": "dpai",
+  "version": "0.0.1",
+  "description": "DPIA Threshold Analysis Development",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dpai"
+  ],
+  "author": "Md Nabuat Al Jahid",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "unix-time": "^1.0.1"
+  }
+}

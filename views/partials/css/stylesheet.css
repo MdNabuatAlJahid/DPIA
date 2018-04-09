@@ -1,0 +1,185 @@
+.logo{
+	margin-left: 110px;
+}
+.top_menu {
+	background-color: #FFF;
+	width: 100%;
+	height: 74px;
+}
+
+.top_menu ul{
+
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    margin-left: 100px;
+
+}
+.top_menu ul li {
+	font-family:"Helvetica Neue", serif;
+	margin-top: 10px;
+  	line-height:1.7;
+  	font-size: 12px;
+  	float: left;
+  	position:relative;
+
+}
+.top_menu ul li a {
+	margin: 15px;
+	display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+.top_menu ul li a:hover{
+	color: #DD3333;
+    
+
+}
+.top_menu ul li a:active{
+	color: #DD3333;
+}
+
+.language_change{
+	margin-top: 23px;
+}
+
+.german_logo{
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.uk_logo{
+	float: left;
+}
+.topnav{
+	background-color: 
+}
+.container{
+	background-color: #F2F2F2;
+	min-height: 1200px;
+	min-width: 100%;
+	font-family: "Helvetica Neue";
+	line-height: 1.7;
+
+}
+.body_text{
+	margin-top: 40px;
+	font-family: "Helvetica Neue";
+}
+.left_column{
+	float: left;
+	background-color: #FFF;
+	min-height: 100px;
+	width: 56%;
+	padding: 50px;
+	margin-top: 40px;
+	margin-right: 5px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	border: solid 1px #DADADA;
+	font-size: 14px;
+	color: #000;
+	font-family: "Helvetica Neue";
+	overflow: hidden;
+}
+
+h2{
+	line-height: 1;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.twitter{
+	float: left;
+	display: inline-block;
+	height: 50px;
+	width: auto;
+	overflow: hidden;
+}
+.facebook{
+	float: left;
+}
+.linkedin{
+	float: left;
+}
+.google{
+	float: left;
+}
+.pinterest{
+	float: left;
+}
+.mail{
+	float: left;
+}
+.right_column{
+		float: right;
+		background-color: #FFF;
+		min-height: 50px;
+		padding: 50px;
+		margin-top: 40px;
+		margin-right: 80px;
+		margin-bottom: 10px;
+		width: 27%;
+		border: solid 1px #DADADA;
+		font-family: 'open sense';
+		font-size: 14px;
+		color: #000;
+		font-family: "Helvetica Neue";
+		overflow: hidden;
+}
+h6 {
+	color:#636467;
+  font-size:14px;
+  margin-bottom:25px;
+  margin-top:0;
+  text-transform:uppercase;
+}
+.news_text{
+	color:#C1C0C0;
+	cursor: pointer;
+}
+.news_text:hover{
+	color:#d44156;
+}
+.isi{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.Logo-FH-Kiel-1{
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+
+footer{
+	padding-top: 30px;
+	padding-left: 100px;
+	padding-bottom: 0px;
+	min-height: 200px;
+	background-color: #313233;
+	color: #FFF;
+	margin-bottom: 0px;
+}
+.footer_link{
+	font-size: 14px;
+	border-bottom: solid 1px #DADADA;
+	width: 400px;
+	padding: 10px;
+	opacity: 50%;
+	margin-bottom: 0px;
+
+}
+.copyright{
+	font-size: 12px;
+	height: 50px;
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+	margin-top: 0px;
+
+}
+.copyright2017{
+	float: right;
+	margin-right: 50px;
+	margin-top: 15px;
+}
